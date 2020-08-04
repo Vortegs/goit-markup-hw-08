@@ -1,0 +1,26 @@
+.qualities-title {
+    margin-top: 30px;
+    margin-bottom: 0;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $title-text-color;
+}
+
+.qualities-discr {
+    display: flex;
+    align-self: center;
+    width: 270px;
+    height: 75px;
+    margin: 10px 0 0 0;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-adv {
+    padding-bottom: 0;
+}

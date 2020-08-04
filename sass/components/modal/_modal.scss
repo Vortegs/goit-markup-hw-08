@@ -1,0 +1,109 @@
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    width: 528px;
+    height: 581px;
+    padding: 40px;
+
+
+    background-color: $primary-background-color;
+    border-radius: 4px;
+    border: 1px solid #2196F3;
+
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2),
+        0 1px 1px rgba(0, 0, 0, 0.14),
+        0 1px 3px rgba(0, 0, 0, 0.12);
+
+}
+
+.closed-modal {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.modal-head {
+    font-size: 20px;
+    line-height: 1.15;
+    color: $title-text-color;
+    margin: 0 0 30px 0;
+}
+
+
+
+.close-icon {
+    width: 18px;
+    height: 18px;
+    fill: #000000;
+
+}
+
+.closed-modal {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+
+    padding: 0;
+    background-color: $primary-background-color;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.closed-modal:hover .close-icon {
+    fill: #2196F3;
+}
+
+.submit-btn {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 30px auto 40px auto;
+    padding: 0;
+
+    background: #188CE8;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+
+    color: $button-text;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.mailing-link {
+    color: $accent-color;
+    text-decoration: underline;
+}
+
+
+/* .form-field:focus-within .form-label, */
+
+
+.subscribe-form {
+    display: flex;
+}
+
+.subscribe-input {
+    min-width: 358px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 12px;
+    padding-left: 16px;
+    background-color: #2F303A;
+    color: $button-text;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
